@@ -80,6 +80,7 @@ module.exports = {
             {
                 "assets": [
                     "package.json",
+                    "packages/**/package.json",
                     "CHANGELOG.md",
                     "ios/**/Info.plist",
                     "ios/**/project.pbxproj",
