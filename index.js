@@ -86,7 +86,7 @@ module.exports = {
                     "ios/**/project.pbxproj",
                     "android/app/build.gradle"
                 ],
-                "message": "chore(release): ${nextRelease.version} - <%= new Date().toLocaleDateString('ru-RU', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n${nextRelease.notes}"
+                "message": "chore(release): ${nextRelease.version} - <%= new Date().toLocaleDateString('ru-RU', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n"
             }
         ],
         [
