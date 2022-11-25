@@ -82,8 +82,8 @@ module.exports = {
                     "package.json",
                     "packages/**/package.json",
                     "CHANGELOG.md",
-                    "ios/**/Info.plist",
-                    "ios/**/project.pbxproj",
+                    ["ios/**/Info.plist", "!ios/Pods/**"],
+                    ["ios/**/project.pbxproj", "!ios/Pods/**"],
                     "android/app/build.gradle"
                 ],
                 "message": "chore(release): ${nextRelease.version} - <%= new Date().toLocaleDateString('ru-RU', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n"
