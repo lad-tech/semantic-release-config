@@ -1,13 +1,13 @@
 {
   "name": "@npm/semantic-release-config",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
   },
   "dependencies": {
-    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/gitlab": "^12.0.3",
-    "@semantic-release/npm": "^10.0.4"
+    "@semantic-release/gitlab": "^9.5.1",
+    "@semantic-release/npm": "^9.0.2"
   }
 }
