@@ -1,10 +1,10 @@
-### @npm/semantic-release-config
+### @lad-tech/semantic-release-config
 
 Template semantic-release-config for mobile projects
 
 ### Usage
 
-- `yarn add -D semantic-release @npm/semantic-release-config`
+- `yarn add -D semantic-release @lad-tech/semantic-release-config`
 - add scripts into `package.json`:     
 ```json
 {
@@ -20,7 +20,7 @@ Template semantic-release-config for mobile projects
 - create `.releaserc.json` inside you project with:
 ```json
 {
-  "extends": "@npm/semantic-release-config"
+  "extends": "@lad-tech/semantic-release-config"
 }
 ```
 - add gitlab [variables](https://github.com/semantic-release/gitlab#configuration)
