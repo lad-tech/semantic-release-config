@@ -1,13 +1,30 @@
 {
-  "name": "@npm/semantic-release-config",
-  "version": "1.0.5",
+  "name": "@lad-tech/semantic-release-config",
+  "version": "0.0.1",
+  "description": "Semantic release config",
+  "main": "index.js",
+  "author": "Bibazavr <lirik.hariev@gmail.com>",
+  "license": "MIT",
   "publishConfig": {
-    "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lad-tech/semantic-release-config"
   },
   "dependencies": {
-    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/gitlab": "^9.5.1",
-    "@semantic-release/npm": "^9.0.2"
-  }
+    "@semantic-release/gitlab": "^12.0.6",
+    "@semantic-release/npm": "^10.0.6"
+  },
+  "keywords": [
+    "lad",
+    "@lad-tech",
+    "semantic",
+    "release",
+    "config",
+    "semantic-release",
+    "semantic-release-config"
+  ]
 }
