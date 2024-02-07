@@ -6,7 +6,10 @@ module.exports = {
     {name: 'release', prerelease: true},
     {name: 'develop', prerelease: true},
     {name: 'swimlane-*', prerelease: true},
-    {name: 'release*', prerelease: true}
+    {
+      "name": "release/*/*/*",
+      "prerelease": '${name.replace(/[^release]/g, "")}'
+    }
   ],
   "plugins": [
     [
