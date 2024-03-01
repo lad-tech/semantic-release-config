@@ -1,6 +1,6 @@
 {
   "name": "@lad-tech/semantic-release-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Semantic release config",
   "main": "index.js",
   "author": "Bibazavr <lirik.hariev@gmail.com>",

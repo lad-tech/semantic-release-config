@@ -8,7 +8,7 @@ module.exports = {
     {name: 'swimlane-*', prerelease: true},
     {
       "name": "release/*/*/*",
-      "prerelease": '${name.replace(/[^release]/g, "")}'
+      "prerelease": '${name.replace(/[^release\\d]/g, "-")}'
     }
   ],
   "plugins": [
